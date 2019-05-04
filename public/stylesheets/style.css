@@ -12,3 +12,8 @@ a {
   margin: 100px;
   padding: 5px;
 }
+
+.form-group {
+  text-align: left;
+  margin-top: 50px;
+}
