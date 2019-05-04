@@ -2,4 +2,7 @@ extends layout
 
 block content
   h1= title
-  p Welcome to #{title}
+  each message in messages
+    div(class='message-box')
+      each val, index in message
+        p= val
